@@ -24,7 +24,6 @@ import java.io.InputStream;
 import java.net.Socket;
 import java.net.URL;
 import java.util.*;
-import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Collectors;
 
 public class Controller implements Initializable {
