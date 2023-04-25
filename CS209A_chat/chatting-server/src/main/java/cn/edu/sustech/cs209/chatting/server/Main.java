@@ -16,6 +16,7 @@ public class Main {
                 Socket socket = clients.get(i);
                 try {
                     OutputStream out = socket.getOutputStream();
+                    System.out.println("connected");
                     out.write("Ser:".getBytes());
                     socket.close();
                     if (i == clients.size() - 1) {
